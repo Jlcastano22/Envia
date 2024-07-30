@@ -1,0 +1,18 @@
+Historia de Usuario Epica
+
+1. Nombre del proyecto: Envia
+2. Proceso: Envio de paquetes
+3. Actores: Cliente, recepcionista y repartidor.
+4. Producto/servicio: Servicio Transporte
+5. Escenario Actual: En la empresa envia, el cliente llega al local con su paquete a enviar y la informacion del envio es tomada manualmente por el recepcionista y luego el repartidor recibe la informacion para realizar la entrega.
+
+-El cliente llega con el paquete.   
+-El recepcionista toma la informacion de la entrega y verifica.
+-El repartidor entrega el paquete y confirma.
+
+6. Escenario objetivo: Se requiere un sistema de informacion donde el cliente tiene la opcion de utilizar el servicio virtualmente con opcion de que el repartidor llegue a una direccion para recibir y trasnaportar el paquete o que el recepcionista pueda ingresar la informacion.
+
+-
+
+7. Problematica: Tiempos largos de atencion,la informacion de los envios puede contener errores o pueden llegar a perderse por la dificultad en el almacenamiento.
+8. Solucion: Sistema de informacion que permita gestionar el proceso de los envios que ayude con el almacenamiento y la agilidad en el proceso.
