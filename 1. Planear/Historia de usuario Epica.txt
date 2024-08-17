@@ -4,15 +4,26 @@ Historia de Usuario Epica
 2. Proceso: Envio de paquetes
 3. Actores: Cliente, recepcionista y repartidor.
 4. Producto/servicio: Servicio Transporte
-5. Escenario Actual: En la empresa envia, el cliente llega al local con su paquete a enviar y la informacion del envio es tomada manualmente por el recepcionista y luego el repartidor recibe la informacion para realizar la entrega.
+5. Mision: La en empresa envia se encarga de la entrega de paquetes de manera eficiente a diferentes cliente de manera regional.
+6.Vision: La empresa envia se proyecta como una empresa reconocida a nivel nacional por su calidad en l servicio.
+7. Escenario Actual: En la empresa envia, el cliente llega al local con su paquete a enviar y la informacion del envio es tomada manualmente por el recepcionista y luego el repartidor recibe la informacion para realizar la entrega.
 
+8. Escenario objetivo: Se requiere un sistema de informacion donde el cliente tiene la opcion de utilizar el servicio virtualmente con opcion de que el repartidor llegue a una direccion para recibir y trasnaportar el paquete o que el recepcionista pueda ingresar la informacion.
+
+9. Problematica: Tiempos largos de atencion,la informacion de los envios puede contener errores o pueden llegar a perderse por la dificultad en el almacenamiento.
+10. Solucion: Sistema de informacion que permita gestionar el proceso de los envios que ayude con el almacenamiento y la agilidad en el proceso.
+11. Requerimiento: La empresa Envia requiere un sistema de informacion transaccional que le permita gestionar la entrega de paquetes realizadas por parte de los clientes. 
+El sistema requiere gestionar la informacion relacionada con la ubicacion del negocio [Globalidad Proceso] - (Pais, Departamento, Ciudad), gestionar la informacion relacionada con la empresa [Referente Empresarial] - (Local, Sedes, Empleado), gestionar la informacion del cliente [Fidelizacion Cliente] - (Consumidor, Tipo Documento, Tipo Genero, Tipo Estado), gestionar la informacion del producto [Masificacion Producto] - (Envio, Tipo Envio), gestionar la reserva del pedido [Control Transaccion] - (Recivo entrega, Detalle Envio, Estado Envio).
+12. Pasos del proceso:
 -El cliente llega con el paquete.   
 -El recepcionista toma la informacion de la entrega y verifica.
+-Se da la informacion de las opciones al client y confirma.
 -El repartidor entrega el paquete y confirma.
 
-6. Escenario objetivo: Se requiere un sistema de informacion donde el cliente tiene la opcion de utilizar el servicio virtualmente con opcion de que el repartidor llegue a una direccion para recibir y trasnaportar el paquete o que el recepcionista pueda ingresar la informacion.
+13. Objetos de Alto Valor
 
--
+14. Entidades de Alto Valor
 
-7. Problematica: Tiempos largos de atencion,la informacion de los envios puede contener errores o pueden llegar a perderse por la dificultad en el almacenamiento.
-8. Solucion: Sistema de informacion que permita gestionar el proceso de los envios que ayude con el almacenamiento y la agilidad en el proceso.
+15. Atributos Calidad
+
+16. Valores Significativos
