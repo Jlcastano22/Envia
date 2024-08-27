@@ -1,0 +1,197 @@
+{
+  "tables": [
+    {
+      "id": 0,
+      "name": "Pais",
+      "x": -450.3999938964844,
+      "y": -289.59999084472656,
+      "fields": [
+        {
+          "name": "IdPais",
+          "type": "UUID",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "Nombre",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 255
+        },
+        {
+          "name": "Activo",
+          "type": "BIT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 1,
+          "values": []
+        },
+        {
+          "name": "Actualiza",
+          "type": "TIMESTAMP",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 3,
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1724163720418
+    },
+    {
+      "id": 1,
+      "name": "Departamento",
+      "x": -168.79998779296875,
+      "y": -293.6000671386719,
+      "fields": [
+        {
+          "name": "IdDepartamento",
+          "type": "UUID",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "IdPais",
+          "type": "UUID",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "Nombre",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 255
+        },
+        {
+          "name": "Activo",
+          "type": "BIT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 3,
+          "size": 1,
+          "values": []
+        },
+        {
+          "name": "Actualiza",
+          "type": "TIMESTAMP",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 4,
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1724164886376
+    },
+    {
+      "id": 2,
+      "name": "Ciudad",
+      "x": 102.4000244140625,
+      "y": -290.40000915527344,
+      "fields": [
+        {
+          "name": "IdCiudad",
+          "type": "UUID",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0,
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a",
+      "key": 1724165290207
+    }
+  ],
+  "relationships": [
+    {
+      "startTableId": 0,
+      "startFieldId": 0,
+      "endTableId": 1,
+      "endFieldId": 1,
+      "cardinality": "Uno a muchos",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "Departamento_IdPais_fk",
+      "id": 0
+    }
+  ],
+  "notes": [],
+  "subjectAreas": [],
+  "database": "postgresql",
+  "types": [],
+  "enums": [],
+  "title": "Envia"
+}

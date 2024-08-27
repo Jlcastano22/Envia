@@ -1,0 +1,12 @@
+CREATE TABLE "Pais" (
+	"IdPais" UUID NOT NULL DEFAULT uuid_generate_v4(),
+	"Nombre" VARCHAR NULL DEFAULT NULL,
+	"Activo" BIT NULL DEFAULT '1',
+	"Actualiza" TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY ("IdPais")
+)
+;
+COMMENT ON COLUMN "Pais"."IdPais" IS '';
+COMMENT ON COLUMN "Pais"."Nombre" IS '';
+COMMENT ON COLUMN "Pais"."Activo" IS '';
+COMMENT ON COLUMN "Pais"."Actualiza" IS '';
