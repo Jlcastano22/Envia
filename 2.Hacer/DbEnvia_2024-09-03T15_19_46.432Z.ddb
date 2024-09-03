@@ -1,4 +1,7 @@
 {
+  "author": "Unnamed",
+  "title": "DbEnvia",
+  "date": "2024-09-03T15:20:14.981Z",
   "tables": [
     {
       "id": 0,
@@ -616,8 +619,8 @@
     {
       "id": 7,
       "name": "TipoDocumento",
-      "x": -146.07334449644011,
-      "y": -420.4439458486256,
+      "x": -32.38929189098715,
+      "y": -414.9430809018487,
       "fields": [
         {
           "name": "IdTipoDocumento",
@@ -682,8 +685,8 @@
     {
       "id": 8,
       "name": "EstadoCivil",
-      "x": -148.4994432264213,
-      "y": -203.41946399267405,
+      "x": -43.98332399847635,
+      "y": -185.0833174502658,
       "fields": [
         {
           "name": "IdEstadoCivil",
@@ -748,8 +751,8 @@
     {
       "id": 9,
       "name": "TipoUsuario",
-      "x": -162.75553628745126,
-      "y": 11.20065161380245,
+      "x": -100.41261006452407,
+      "y": 35.0376980764118,
       "fields": [
         {
           "name": "IdTipoUsuario",
@@ -1557,7 +1560,7 @@
       "startFieldId": 0,
       "endTableId": 10,
       "endFieldId": 3,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "Genero_IdGenero_fk",
@@ -1568,7 +1571,7 @@
       "startFieldId": 0,
       "endTableId": 10,
       "endFieldId": 1,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "TipoDocumento_IdTipoDocumento_fk",
@@ -1579,7 +1582,7 @@
       "startFieldId": 0,
       "endTableId": 10,
       "endFieldId": 4,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "EstadoCivil_IdEstadoCivil_fk",
@@ -1590,7 +1593,7 @@
       "startFieldId": 0,
       "endTableId": 10,
       "endFieldId": 5,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "TipoUsuario_IdTipoUsuario_fk",
@@ -1601,7 +1604,7 @@
       "startFieldId": 0,
       "endTableId": 13,
       "endFieldId": 1,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "TipoEnvio_IdTipoEnvio_fk",
@@ -1612,7 +1615,7 @@
       "startFieldId": 0,
       "endTableId": 13,
       "endFieldId": 2,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "TipoPaquete_IdTipoPaquete_fk",
@@ -1623,7 +1626,7 @@
       "startFieldId": 0,
       "endTableId": 14,
       "endFieldId": 1,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "Paquete_IdPaquete_fk",
@@ -1645,7 +1648,7 @@
       "startFieldId": 0,
       "endTableId": 16,
       "endFieldId": 1,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "Ciudad_IdCiudad_fk",
@@ -1656,7 +1659,7 @@
       "startFieldId": 0,
       "endTableId": 16,
       "endFieldId": 2,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "Empleado_IdEmpleado_fk",
@@ -1667,7 +1670,7 @@
       "startFieldId": 0,
       "endTableId": 16,
       "endFieldId": 3,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "Usuario_IdUsuario_fk",
@@ -1678,7 +1681,7 @@
       "startFieldId": 0,
       "endTableId": 16,
       "endFieldId": 4,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "DetalleEnvio_IdDetalleEnvio_fk",
@@ -1689,7 +1692,7 @@
       "startFieldId": 0,
       "endTableId": 16,
       "endFieldId": 5,
-      "cardinality": "Uno a uno",
+      "cardinality": "Uno a muchos",
       "updateConstraint": "No action",
       "deleteConstraint": "No action",
       "name": "EstadoEnvio_IdEstadoEnvio_fk",
@@ -1700,6 +1703,5 @@
   "subjectAreas": [],
   "database": "postgresql",
   "types": [],
-  "enums": [],
-  "title": "DbEnvia"
+  "enums": []
 }

@@ -1,12 +1,13 @@
-CREATE TABLE "Pais" (
-	"IdPais" UUID NOT NULL DEFAULT uuid_generate_v4(),
-	"Nombre" VARCHAR NULL DEFAULT NULL,
-	"Activo" BIT NULL DEFAULT '1',
-	"Actualiza" TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY ("IdPais")
-)
-;
-COMMENT ON COLUMN "Pais"."IdPais" IS '';
-COMMENT ON COLUMN "Pais"."Nombre" IS '';
-COMMENT ON COLUMN "Pais"."Activo" IS '';
-COMMENT ON COLUMN "Pais"."Actualiza" IS '';
+-- "Envia"."Pais" definition
+
+-- Drop table
+
+-- DROP TABLE "Envia"."Pais";
+
+CREATE TABLE "Envia"."Pais" (
+	"IdPais" uuid NOT NULL,
+	"Nombre" varchar NULL,
+	"Activo" bit(1) DEFAULT '1'::"bit" NULL,
+	"Actualiza" timestamp DEFAULT CURRENT_TIMESTAMP NULL,
+	CONSTRAINT "Pais_pkey" PRIMARY KEY ("IdPais")
+);
