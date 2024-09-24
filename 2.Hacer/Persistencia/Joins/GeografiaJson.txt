@@ -1,0 +1,26 @@
+[
+    {
+        "IdPais": "bcf3a734-5c9e-4593-a939-4da133a14058",
+        "IdCiudad": "894630a8-8bbd-4ba4-976f-0d783b937e6e",
+        "NombrePais": "Colombia",
+        "NombreCiudad": "Medellin",
+        "IdDepartamento": "01b4d66a-53dd-44a0-a8dd-f1185d492a13",
+        "NombreDepartamento": "Antioquia"
+    },
+    {
+        "IdPais": "1f6daed3-e89f-4534-a62b-0a3c7a366891",
+        "IdCiudad": "7c05ea20-5a99-4db4-a367-a17d314dfa32",
+        "NombrePais": "Venezuela",
+        "NombreCiudad": "Ciudad Bolivar",
+        "IdDepartamento": "064836b3-4c5b-4b45-b19c-0bb3ca9c2904",
+        "NombreDepartamento": "Bolivar"
+    },
+    {
+        "IdPais": "05f642c5-caf1-4261-ab39-f6f80544be7c",
+        "IdCiudad": "4ccc2791-d18c-4c67-a2ef-f1b881e2842c",
+        "NombrePais": "Estados Unidos",
+        "NombreCiudad": "Sacramento",
+        "IdDepartamento": "c060a610-fed6-4f6d-82c3-dc802a57aaa9",
+        "NombreDepartamento": "California"
+    }
+]
