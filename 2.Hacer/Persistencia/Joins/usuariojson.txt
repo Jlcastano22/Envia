@@ -1,0 +1,50 @@
+[
+    {
+        "IdGenero": "b7fe6c32-3ff1-49f9-bfd4-5aed8df70112",
+        "IdUsuario": "7c6bc247-0ff7-4e84-97bd-e80de2a05d32",
+        "NombreGenero": "Masculino",
+        "IdEstadoCivil": "e5b8a849-a868-404b-9b7b-685fea4451ff",
+        "IdTipoUsuario": "c2b31451-55d8-4345-9cae-1bc553609606",
+        "IdTipoDocumento": "84691d4a-210e-4c39-b938-c60c4da03754",
+        "NumeroDocumento": "102520",
+        "NombreEstadoCivil": "Soltero",
+        "NombreTipoUsuario": "Cliente",
+        "NombreTipoDocumento": "Cedula"
+    },
+    {
+        "IdGenero": "ce542bd0-badb-4ec3-8c7b-575c4703e039",
+        "IdUsuario": "19905aa2-98e8-4061-ad9d-b9076f3d9793",
+        "NombreGenero": "Femenino",
+        "IdEstadoCivil": "997b696b-f893-428a-881a-14798a7f4b2c",
+        "IdTipoUsuario": "c2b31451-55d8-4345-9cae-1bc553609606",
+        "IdTipoDocumento": "84691d4a-210e-4c39-b938-c60c4da03754",
+        "NumeroDocumento": "145760",
+        "NombreEstadoCivil": "Casado",
+        "NombreTipoUsuario": "Cliente",
+        "NombreTipoDocumento": "Cedula"
+    },
+    {
+        "IdGenero": "b7fe6c32-3ff1-49f9-bfd4-5aed8df70112",
+        "IdUsuario": "7f9e14f9-2a01-46b0-930f-92d9b145c8b0",
+        "NombreGenero": "Masculino",
+        "IdEstadoCivil": "e5b8a849-a868-404b-9b7b-685fea4451ff",
+        "IdTipoUsuario": "a1a3ec70-91ec-43d1-b8fa-bccde8aac7d8",
+        "IdTipoDocumento": "84691d4a-210e-4c39-b938-c60c4da03754",
+        "NumeroDocumento": "101222520",
+        "NombreEstadoCivil": "Soltero",
+        "NombreTipoUsuario": "Trabajador",
+        "NombreTipoDocumento": "Cedula"
+    },
+    {
+        "IdGenero": "b7fe6c32-3ff1-49f9-bfd4-5aed8df70112",
+        "IdUsuario": "8a082698-e733-42f8-80c2-f51014bf1f88",
+        "NombreGenero": "Masculino",
+        "IdEstadoCivil": "e5b8a849-a868-404b-9b7b-685fea4451ff",
+        "IdTipoUsuario": "a1a3ec70-91ec-43d1-b8fa-bccde8aac7d8",
+        "IdTipoDocumento": "84691d4a-210e-4c39-b938-c60c4da03754",
+        "NumeroDocumento": "145654760",
+        "NombreEstadoCivil": "Soltero",
+        "NombreTipoUsuario": "Trabajador",
+        "NombreTipoDocumento": "Cedula"
+    }
+]

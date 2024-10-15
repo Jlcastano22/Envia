@@ -1,0 +1,30 @@
+[
+    {
+        "Nit": "1123545",
+        "Cargo": "Repartidor",
+        "Barrio": "El dorado",
+        "IdSede": "0529e018-ebb7-44f6-bbc2-b4effa3f757e",
+        "Jornada": "Diurna",
+        "Salario": "10000000",
+        "Direccion": "Calle 123 #2",
+        "IdEmpresa": "e504b936-6653-4842-a412-e9540f847bb9",
+        "Conmutador": "1",
+        "IdEmpleado": "327d7917-2cd3-4a03-8777-a908710e0557",
+        "NombreSede": "Envia",
+        "RazonSocial": "Envia S.A"
+    },
+    {
+        "Nit": "1123545",
+        "Cargo": "Repartidor",
+        "Barrio": "Rosellon",
+        "IdSede": "d4a1f04e-2ceb-4ad4-bb68-7b79de33a928",
+        "Jornada": "Nocturna",
+        "Salario": "10000000",
+        "Direccion": "Calle 1",
+        "IdEmpresa": "e504b936-6653-4842-a412-e9540f847bb9",
+        "Conmutador": "1",
+        "IdEmpleado": "25c92a9a-3933-4313-a9fa-19d1c6606bbc",
+        "NombreSede": "Envia",
+        "RazonSocial": "Envia S.A"
+    }
+]

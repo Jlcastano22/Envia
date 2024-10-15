@@ -1,0 +1,32 @@
+[
+    {
+        "Peso": "2kg",
+        "IdPaquete": "d3454397-dfc6-40ce-91b3-f5997cc3dc58",
+        "Descripcion": "Contenido delicado",
+        "Dimensiones": "2 2 2",
+        "IdTipoEnvio": "86a56a87-4427-4bfa-9d98-e2d9e90c9b5b",
+        "IdTipoPaquete": "d35179d9-c7f0-41ba-9fa6-383025dce34d",
+        "NombreTipoEnvio": "Clasico",
+        "NombreTipoPaquete": "Delicado"
+    },
+    {
+        "Peso": "200kg",
+        "IdPaquete": "20efa079-ba6c-4525-a202-ec2710fd0cb4",
+        "Descripcion": "Contenido Pesado",
+        "Dimensiones": "20 50 2",
+        "IdTipoEnvio": "4313229b-eca0-4fbf-8c00-9c041c4ec47f",
+        "IdTipoPaquete": "81311b18-b03f-4036-ad9f-05b7a0e879b2",
+        "NombreTipoEnvio": "Rapido",
+        "NombreTipoPaquete": "Pesado"
+    },
+    {
+        "Peso": "50kg",
+        "IdPaquete": "574b4859-b953-4f2f-9cd1-6e10ceab4c92",
+        "Descripcion": "Entrega especial",
+        "Dimensiones": "100 50 100",
+        "IdTipoEnvio": "98e93f12-2bb9-4970-a19e-1c6858cce951",
+        "IdTipoPaquete": "91ee8be0-add5-42f2-9874-134876d56f64",
+        "NombreTipoEnvio": "Especial",
+        "NombreTipoPaquete": "Grande"
+    }
+]
